@@ -1,0 +1,35 @@
+[ N 2022-10-20 14:24:34.0375 163172/T1 age/Wat/WatchdogMain.cpp:1377 ]: Starting Passenger watchdog...
+[ N 2022-10-20 14:24:34.0586 163175/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-10-20 14:24:34.0587 163175/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-10-20 14:24:34.0691 163175/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 163175
+[ N 2022-10-20 14:24:36.1827 163175/Tb age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-10-20 14:24:47.7617 163175/T5 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-10-20 14:24:47.7618 163175/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-10-20 14:24:47.7618 163175/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 163248, application /var/www/rails_tutorial (production)
+[ N 2022-10-20 14:24:47.7620 163175/T8 Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-10-20 14:24:47.7620 163175/T8 Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-10-20 14:24:47.7620 163175/T5 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-10-20 14:24:47.7620 163175/T5 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-10-20 14:24:47.7623 163175/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 163248, application /var/www/rails_tutorial (production)
+[ N 2022-10-20 14:24:48.0349 163175/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-10-20 14:25:21.5696 163309/T1 age/Wat/WatchdogMain.cpp:1377 ]: Starting Passenger watchdog...
+[ N 2022-10-20 14:25:21.5890 163312/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-10-20 14:25:21.5892 163312/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-10-20 14:25:21.5940 163312/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 163312
+[ N 2022-10-20 14:25:23.6763 163312/T7 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)
+
+[ N 2022-10-20 14:28:00.9205 163312/T9 age/Cor/CoreMain.cpp:670 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2022-10-20 14:28:00.9206 163312/T1 age/Cor/CoreMain.cpp:1245 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2022-10-20 14:28:00.9206 163312/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 163381, application /var/www/rails_tutorial (production)
+[ N 2022-10-20 14:28:00.9207 163312/Tb Ser/Server.h:901 ]: [ApiServer] Freed 0 spare client objects
+[ N 2022-10-20 14:28:00.9207 163312/Tb Ser/Server.h:558 ]: [ApiServer] Shutdown finished
+[ N 2022-10-20 14:28:00.9208 163312/T9 Ser/Server.h:901 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2022-10-20 14:28:00.9208 163312/T9 Ser/Server.h:558 ]: [ServerThr.1] Shutdown finished
+[ N 2022-10-20 14:28:00.9220 163312/T1 age/Cor/CoreMain.cpp:1146 ]: Checking whether to disconnect long-running connections for process 163381, application /var/www/rails_tutorial (production)
+[ N 2022-10-20 14:28:01.1934 163312/T1 age/Cor/CoreMain.cpp:1325 ]: Passenger core shutdown finished
+[ N 2022-10-20 14:33:16.0284 163540/T1 age/Wat/WatchdogMain.cpp:1377 ]: Starting Passenger watchdog...
+[ N 2022-10-20 14:33:16.0466 163543/T1 age/Cor/CoreMain.cpp:1340 ]: Starting Passenger core...
+[ N 2022-10-20 14:33:16.0467 163543/T1 age/Cor/CoreMain.cpp:256 ]: Passenger core running in multi-application mode.
+[ N 2022-10-20 14:33:16.0521 163543/T1 age/Cor/CoreMain.cpp:1015 ]: Passenger core online, PID 163543
+[ N 2022-10-20 14:33:18.1429 163543/T6 age/Cor/SecurityUpdateChecker.h:519 ]: Security update check: no update found (next check in 24 hours)

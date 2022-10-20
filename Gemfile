@@ -9,6 +9,9 @@ gem "glib"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 gem "bundler"
+gem "jsbundling-rails"
+gem "cssbundling-rails"
+gem "passenger"
 
 # Use pg as the database for Active Record
 gem "pg", "~> 1.1"

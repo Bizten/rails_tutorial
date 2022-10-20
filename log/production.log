@@ -1,0 +1,254 @@
+W, [2022-10-19T13:16:12.083190 #147953]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+W, [2022-10-19T13:16:29.745240 #147959]  WARN -- : You are running SQLite in production, this is generally not recommended. You can disable this warning by setting "config.active_record.sqlite3_production_warning=false".
+I, [2022-10-20T13:35:45.191446 #161902]  INFO -- : Migrating to CreatePosts (20221019104027)
+I, [2022-10-20T13:35:45.209575 #161902]  INFO -- : Migrating to CreateActiveStorageTables (20221019104818)
+I, [2022-10-20T13:35:45.274488 #161902]  INFO -- : Migrating to CreateActionTextTables (20221019104819)
+I, [2022-10-20T13:37:30.245996 #161950]  INFO -- : [f7c5a2e4-d8ad-4409-9544-8c32240e5128] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:37:30 +0000
+I, [2022-10-20T13:37:30.247528 #161950]  INFO -- : [f7c5a2e4-d8ad-4409-9544-8c32240e5128] Processing by PostsController#index as HTML
+I, [2022-10-20T13:37:30.269450 #161950]  INFO -- : [f7c5a2e4-d8ad-4409-9544-8c32240e5128]   Rendered posts/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 4862)
+I, [2022-10-20T13:37:30.271133 #161950]  INFO -- : [f7c5a2e4-d8ad-4409-9544-8c32240e5128]   Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 5589)
+I, [2022-10-20T13:37:30.271389 #161950]  INFO -- : [f7c5a2e4-d8ad-4409-9544-8c32240e5128] Completed 500 Internal Server Error in 24ms (ActiveRecord: 4.6ms | Allocations: 7156)
+F, [2022-10-20T13:37:30.272179 #161950] FATAL -- : [f7c5a2e4-d8ad-4409-9544-8c32240e5128]   
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128]      6:     <%= csrf_meta_tags %>
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128]      7:     <%= csp_meta_tag %>
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128]      8: 
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128]     10:     <link rel="stylesheet" 
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128]     11: href="https://cdn.simplecss.org/simple.min.css">
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128]     12:     <%= javascript_importmap_tags %>
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128]   
+[f7c5a2e4-d8ad-4409-9544-8c32240e5128] app/views/layouts/application.html.erb:9
+I, [2022-10-20T13:41:16.249029 #162044]  INFO -- : [d93006c1-2579-4311-802e-0b36d417f2f8] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:41:16 +0000
+I, [2022-10-20T13:41:16.250462 #162044]  INFO -- : [d93006c1-2579-4311-802e-0b36d417f2f8] Processing by PostsController#index as HTML
+I, [2022-10-20T13:41:16.273445 #162044]  INFO -- : [d93006c1-2579-4311-802e-0b36d417f2f8]   Rendered posts/index.html.erb within layouts/application (Duration: 19.8ms | Allocations: 4862)
+I, [2022-10-20T13:41:16.275268 #162044]  INFO -- : [d93006c1-2579-4311-802e-0b36d417f2f8]   Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 5585)
+I, [2022-10-20T13:41:16.275640 #162044]  INFO -- : [d93006c1-2579-4311-802e-0b36d417f2f8] Completed 500 Internal Server Error in 25ms (ActiveRecord: 6.1ms | Allocations: 7108)
+F, [2022-10-20T13:41:16.276681 #162044] FATAL -- : [d93006c1-2579-4311-802e-0b36d417f2f8]   
+[d93006c1-2579-4311-802e-0b36d417f2f8] ActionView::Template::Error (The asset "application.css" is not present in the asset pipeline.
+):
+[d93006c1-2579-4311-802e-0b36d417f2f8]      6:     <%= csrf_meta_tags %>
+[d93006c1-2579-4311-802e-0b36d417f2f8]      7:     <%= csp_meta_tag %>
+[d93006c1-2579-4311-802e-0b36d417f2f8]      8: 
+[d93006c1-2579-4311-802e-0b36d417f2f8]      9:     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+[d93006c1-2579-4311-802e-0b36d417f2f8]     10:     <%= javascript_importmap_tags %>
+[d93006c1-2579-4311-802e-0b36d417f2f8]     11:   </head>
+[d93006c1-2579-4311-802e-0b36d417f2f8]     12: 
+[d93006c1-2579-4311-802e-0b36d417f2f8]   
+[d93006c1-2579-4311-802e-0b36d417f2f8] app/views/layouts/application.html.erb:9
+I, [2022-10-20T13:41:59.152106 #162068]  INFO -- : [5fe3eddb-2576-40ef-a383-95cc90c3875c] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:41:59 +0000
+I, [2022-10-20T13:41:59.153486 #162068]  INFO -- : [5fe3eddb-2576-40ef-a383-95cc90c3875c] Processing by PostsController#index as HTML
+I, [2022-10-20T13:41:59.176496 #162068]  INFO -- : [5fe3eddb-2576-40ef-a383-95cc90c3875c]   Rendered posts/index.html.erb within layouts/application (Duration: 19.2ms | Allocations: 4862)
+I, [2022-10-20T13:41:59.178977 #162068]  INFO -- : [5fe3eddb-2576-40ef-a383-95cc90c3875c]   Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 7347)
+I, [2022-10-20T13:41:59.179327 #162068]  INFO -- : [5fe3eddb-2576-40ef-a383-95cc90c3875c] Completed 200 OK in 26ms (Views: 23.5ms | ActiveRecord: 4.5ms | Allocations: 8924)
+I, [2022-10-20T13:41:59.200222 #162068]  INFO -- : [ab189a78-79a1-4fe9-a6d5-f3b6f9c1f1ec] Started GET "/assets/application-4dc1087a3806e10fe750ddbfd1540e3a334530a77de8832e06586dbc4e822691.css" for 176.129.104.228 at 2022-10-20 13:41:59 +0000
+F, [2022-10-20T13:41:59.200774 #162068] FATAL -- : [ab189a78-79a1-4fe9-a6d5-f3b6f9c1f1ec]   
+[ab189a78-79a1-4fe9-a6d5-f3b6f9c1f1ec] ActionController::RoutingError (No route matches [GET] "/assets/application-4dc1087a3806e10fe750ddbfd1540e3a334530a77de8832e06586dbc4e822691.css"):
+[ab189a78-79a1-4fe9-a6d5-f3b6f9c1f1ec]   
+I, [2022-10-20T13:41:59.217200 #162068]  INFO -- : [8e5e8536-f217-4eeb-8932-e0c1d434925e] Started GET "/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js" for 176.129.104.228 at 2022-10-20 13:41:59 +0000
+F, [2022-10-20T13:41:59.217662 #162068] FATAL -- : [8e5e8536-f217-4eeb-8932-e0c1d434925e]   
+[8e5e8536-f217-4eeb-8932-e0c1d434925e] ActionController::RoutingError (No route matches [GET] "/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js"):
+[8e5e8536-f217-4eeb-8932-e0c1d434925e]   
+I, [2022-10-20T13:48:50.426188 #162536]  INFO -- : [e741c677-a0c8-4b84-bd76-a57e2064b446] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:48:50 +0000
+I, [2022-10-20T13:48:50.428991 #162536]  INFO -- : [e741c677-a0c8-4b84-bd76-a57e2064b446] Processing by PostsController#index as HTML
+I, [2022-10-20T13:48:50.454254 #162536]  INFO -- : [e741c677-a0c8-4b84-bd76-a57e2064b446]   Rendered posts/index.html.erb within layouts/application (Duration: 21.7ms | Allocations: 5001)
+I, [2022-10-20T13:48:50.457032 #162536]  INFO -- : [e741c677-a0c8-4b84-bd76-a57e2064b446]   Rendered layout layouts/application.html.erb (Duration: 24.5ms | Allocations: 7450)
+I, [2022-10-20T13:48:50.457459 #162536]  INFO -- : [e741c677-a0c8-4b84-bd76-a57e2064b446] Completed 200 OK in 28ms (Views: 26.4ms | ActiveRecord: 6.2ms | Allocations: 9027)
+I, [2022-10-20T13:48:53.666927 #162536]  INFO -- : [6f677aea-1686-403a-a541-d084e624ebc8] Started GET "/posts/new" for 176.129.104.228 at 2022-10-20 13:48:53 +0000
+I, [2022-10-20T13:48:53.667921 #162536]  INFO -- : [6f677aea-1686-403a-a541-d084e624ebc8] Processing by PostsController#new as HTML
+I, [2022-10-20T13:48:53.697229 #162536]  INFO -- : [6f677aea-1686-403a-a541-d084e624ebc8]   Rendered posts/new.html.erb within layouts/application (Duration: 16.2ms | Allocations: 7284)
+I, [2022-10-20T13:48:53.697974 #162536]  INFO -- : [6f677aea-1686-403a-a541-d084e624ebc8]   Rendered layout layouts/application.html.erb (Duration: 17.0ms | Allocations: 7880)
+I, [2022-10-20T13:48:53.698210 #162536]  INFO -- : [6f677aea-1686-403a-a541-d084e624ebc8] Completed 200 OK in 30ms (Views: 15.2ms | ActiveRecord: 9.6ms | Allocations: 11705)
+I, [2022-10-20T13:48:58.610233 #162536]  INFO -- : [d6e2a1db-eeae-44f0-a2a3-3487aaee6da9] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:48:58 +0000
+I, [2022-10-20T13:48:58.611192 #162536]  INFO -- : [d6e2a1db-eeae-44f0-a2a3-3487aaee6da9] Processing by PostsController#index as HTML
+I, [2022-10-20T13:48:58.613669 #162536]  INFO -- : [d6e2a1db-eeae-44f0-a2a3-3487aaee6da9]   Rendered posts/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 430)
+I, [2022-10-20T13:48:58.614641 #162536]  INFO -- : [d6e2a1db-eeae-44f0-a2a3-3487aaee6da9]   Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 981)
+I, [2022-10-20T13:48:58.614881 #162536]  INFO -- : [d6e2a1db-eeae-44f0-a2a3-3487aaee6da9] Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms | Allocations: 1243)
+I, [2022-10-20T13:50:51.677022 #162651]  INFO -- : [f3862287-9773-4a79-8e15-f2a30571e129] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:50:51 +0000
+I, [2022-10-20T13:50:51.678452 #162651]  INFO -- : [f3862287-9773-4a79-8e15-f2a30571e129] Processing by PostsController#index as HTML
+I, [2022-10-20T13:50:51.697600 #162651]  INFO -- : [f3862287-9773-4a79-8e15-f2a30571e129]   Rendered posts/index.html.erb within layouts/application (Duration: 16.2ms | Allocations: 5010)
+I, [2022-10-20T13:50:51.700129 #162651]  INFO -- : [f3862287-9773-4a79-8e15-f2a30571e129]   Rendered layout layouts/application.html.erb (Duration: 18.8ms | Allocations: 7459)
+I, [2022-10-20T13:50:51.700476 #162651]  INFO -- : [f3862287-9773-4a79-8e15-f2a30571e129] Completed 200 OK in 22ms (Views: 20.2ms | ActiveRecord: 4.4ms | Allocations: 9036)
+I, [2022-10-20T13:50:52.589710 #162651]  INFO -- : [5e846bae-40de-4043-ae97-bf21f325ec3f] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:50:52 +0000
+I, [2022-10-20T13:50:52.590485 #162651]  INFO -- : [5e846bae-40de-4043-ae97-bf21f325ec3f] Processing by PostsController#index as HTML
+I, [2022-10-20T13:50:52.592690 #162651]  INFO -- : [5e846bae-40de-4043-ae97-bf21f325ec3f]   Rendered posts/index.html.erb within layouts/application (Duration: 1.5ms | Allocations: 435)
+I, [2022-10-20T13:50:52.593461 #162651]  INFO -- : [5e846bae-40de-4043-ae97-bf21f325ec3f]   Rendered layout layouts/application.html.erb (Duration: 2.3ms | Allocations: 986)
+I, [2022-10-20T13:50:52.593665 #162651]  INFO -- : [5e846bae-40de-4043-ae97-bf21f325ec3f] Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 1254)
+I, [2022-10-20T13:51:40.293798 #162651]  INFO -- : [e2baa439-724d-4455-9773-0013001ca175] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:51:40 +0000
+I, [2022-10-20T13:51:40.294743 #162651]  INFO -- : [e2baa439-724d-4455-9773-0013001ca175] Processing by PostsController#index as HTML
+I, [2022-10-20T13:51:40.296509 #162651]  INFO -- : [e2baa439-724d-4455-9773-0013001ca175]   Rendered posts/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 203)
+I, [2022-10-20T13:51:40.297304 #162651]  INFO -- : [e2baa439-724d-4455-9773-0013001ca175]   Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 778)
+I, [2022-10-20T13:51:40.297506 #162651]  INFO -- : [e2baa439-724d-4455-9773-0013001ca175] Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.3ms | Allocations: 996)
+I, [2022-10-20T13:51:40.320680 #162651]  INFO -- : [5f42b4d3-8cb5-433d-86b5-e18acd1299e7] Started GET "/assets/application-4dc1087a3806e10fe750ddbfd1540e3a334530a77de8832e06586dbc4e822691.css" for 176.129.104.228 at 2022-10-20 13:51:40 +0000
+F, [2022-10-20T13:51:40.321354 #162651] FATAL -- : [5f42b4d3-8cb5-433d-86b5-e18acd1299e7]   
+[5f42b4d3-8cb5-433d-86b5-e18acd1299e7] ActionController::RoutingError (No route matches [GET] "/assets/application-4dc1087a3806e10fe750ddbfd1540e3a334530a77de8832e06586dbc4e822691.css"):
+[5f42b4d3-8cb5-433d-86b5-e18acd1299e7]   
+I, [2022-10-20T13:51:40.337775 #162651]  INFO -- : [427c98cf-69df-4e56-a565-7479e07f1333] Started GET "/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js" for 176.129.104.228 at 2022-10-20 13:51:40 +0000
+F, [2022-10-20T13:51:40.338244 #162651] FATAL -- : [427c98cf-69df-4e56-a565-7479e07f1333]   
+[427c98cf-69df-4e56-a565-7479e07f1333] ActionController::RoutingError (No route matches [GET] "/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js"):
+[427c98cf-69df-4e56-a565-7479e07f1333]   
+I, [2022-10-20T13:54:34.405481 #162774]  INFO -- : [020f4062-caae-4825-8517-5c493710fee8] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:54:34 +0000
+I, [2022-10-20T13:54:34.406893 #162774]  INFO -- : [020f4062-caae-4825-8517-5c493710fee8] Processing by PostsController#index as HTML
+I, [2022-10-20T13:54:34.425198 #162774]  INFO -- : [020f4062-caae-4825-8517-5c493710fee8]   Rendered posts/index.html.erb within layouts/application (Duration: 15.7ms | Allocations: 4940)
+I, [2022-10-20T13:54:34.427681 #162774]  INFO -- : [020f4062-caae-4825-8517-5c493710fee8]   Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 7389)
+I, [2022-10-20T13:54:34.428042 #162774]  INFO -- : [020f4062-caae-4825-8517-5c493710fee8] Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 4.3ms | Allocations: 8966)
+I, [2022-10-20T13:54:43.565487 #162774]  INFO -- : [b8c750fd-ef96-4bf1-a8a2-375d9df0456a] Started GET "/posts/new" for 176.129.104.228 at 2022-10-20 13:54:43 +0000
+I, [2022-10-20T13:54:43.566729 #162774]  INFO -- : [b8c750fd-ef96-4bf1-a8a2-375d9df0456a] Processing by PostsController#new as HTML
+I, [2022-10-20T13:54:43.597353 #162774]  INFO -- : [b8c750fd-ef96-4bf1-a8a2-375d9df0456a]   Rendered posts/new.html.erb within layouts/application (Duration: 16.0ms | Allocations: 7098)
+I, [2022-10-20T13:54:43.598069 #162774]  INFO -- : [b8c750fd-ef96-4bf1-a8a2-375d9df0456a]   Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 7694)
+I, [2022-10-20T13:54:43.598312 #162774]  INFO -- : [b8c750fd-ef96-4bf1-a8a2-375d9df0456a] Completed 200 OK in 31ms (Views: 13.7ms | ActiveRecord: 10.5ms | Allocations: 11519)
+I, [2022-10-20T13:54:45.598292 #162774]  INFO -- : [6ff55f94-1e15-42d7-a7a0-1f5044a7a541] Started POST "/posts" for 176.129.104.228 at 2022-10-20 13:54:45 +0000
+I, [2022-10-20T13:54:45.599124 #162774]  INFO -- : [6ff55f94-1e15-42d7-a7a0-1f5044a7a541] Processing by PostsController#create as HTML
+I, [2022-10-20T13:54:45.599179 #162774]  INFO -- : [6ff55f94-1e15-42d7-a7a0-1f5044a7a541]   Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"title"=>"test", "content"=>""}, "commit"=>"Create Post"}
+I, [2022-10-20T13:54:45.619676 #162774]  INFO -- : [6ff55f94-1e15-42d7-a7a0-1f5044a7a541] Redirected to http://cosmoswide.fr:3000/posts/1
+I, [2022-10-20T13:54:45.619899 #162774]  INFO -- : [6ff55f94-1e15-42d7-a7a0-1f5044a7a541] Completed 302 Found in 21ms (ActiveRecord: 3.8ms | Allocations: 5380)
+I, [2022-10-20T13:54:45.642691 #162774]  INFO -- : [c2da77aa-1fad-437e-86aa-9b6a69b830f4] Started GET "/posts/1" for 176.129.104.228 at 2022-10-20 13:54:45 +0000
+I, [2022-10-20T13:54:45.643535 #162774]  INFO -- : [c2da77aa-1fad-437e-86aa-9b6a69b830f4] Processing by PostsController#show as HTML
+I, [2022-10-20T13:54:45.643628 #162774]  INFO -- : [c2da77aa-1fad-437e-86aa-9b6a69b830f4]   Parameters: {"id"=>"1"}
+I, [2022-10-20T13:54:45.653922 #162774]  INFO -- : [c2da77aa-1fad-437e-86aa-9b6a69b830f4]   Rendered posts/show.html.erb within layouts/application (Duration: 7.6ms | Allocations: 2282)
+I, [2022-10-20T13:54:45.654635 #162774]  INFO -- : [c2da77aa-1fad-437e-86aa-9b6a69b830f4]   Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2847)
+I, [2022-10-20T13:54:45.654866 #162774]  INFO -- : [c2da77aa-1fad-437e-86aa-9b6a69b830f4] Completed 200 OK in 11ms (Views: 8.4ms | ActiveRecord: 0.7ms | Allocations: 3670)
+I, [2022-10-20T13:54:49.083891 #162774]  INFO -- : [629e94f8-83b1-4408-a2d4-62274240bd66] Started GET "/posts" for 176.129.104.228 at 2022-10-20 13:54:49 +0000
+I, [2022-10-20T13:54:49.086472 #162774]  INFO -- : [629e94f8-83b1-4408-a2d4-62274240bd66] Processing by PostsController#index as HTML
+I, [2022-10-20T13:54:49.090840 #162774]  INFO -- : [629e94f8-83b1-4408-a2d4-62274240bd66]   Rendered posts/index.html.erb within layouts/application (Duration: 3.7ms | Allocations: 982)
+I, [2022-10-20T13:54:49.091614 #162774]  INFO -- : [629e94f8-83b1-4408-a2d4-62274240bd66]   Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 1532)
+I, [2022-10-20T13:54:49.091859 #162774]  INFO -- : [629e94f8-83b1-4408-a2d4-62274240bd66] Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.5ms | Allocations: 1753)
+I, [2022-10-20T13:54:50.056548 #162774]  INFO -- : [251de1a9-a3e2-49fe-95c7-081ae44298c7] Started GET "/posts/new" for 176.129.104.228 at 2022-10-20 13:54:50 +0000
+I, [2022-10-20T13:54:50.057569 #162774]  INFO -- : [251de1a9-a3e2-49fe-95c7-081ae44298c7] Processing by PostsController#new as HTML
+I, [2022-10-20T13:54:50.063950 #162774]  INFO -- : [251de1a9-a3e2-49fe-95c7-081ae44298c7]   Rendered posts/new.html.erb within layouts/application (Duration: 5.4ms | Allocations: 1647)
+I, [2022-10-20T13:54:50.065121 #162774]  INFO -- : [251de1a9-a3e2-49fe-95c7-081ae44298c7]   Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2197)
+I, [2022-10-20T13:54:50.065443 #162774]  INFO -- : [251de1a9-a3e2-49fe-95c7-081ae44298c7] Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 2422)
+I, [2022-10-20T13:54:53.065345 #162774]  INFO -- : [20e3842e-0cf6-4748-aac6-6b1160df0b57] Started POST "/posts" for 176.129.104.228 at 2022-10-20 13:54:53 +0000
+I, [2022-10-20T13:54:53.066133 #162774]  INFO -- : [20e3842e-0cf6-4748-aac6-6b1160df0b57] Processing by PostsController#create as HTML
+I, [2022-10-20T13:54:53.066190 #162774]  INFO -- : [20e3842e-0cf6-4748-aac6-6b1160df0b57]   Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"title"=>"", "content"=>""}, "commit"=>"Create Post"}
+I, [2022-10-20T13:54:53.073003 #162774]  INFO -- : [20e3842e-0cf6-4748-aac6-6b1160df0b57]   Rendered posts/new.html.erb within layouts/application (Duration: 3.9ms | Allocations: 2545)
+I, [2022-10-20T13:54:53.073738 #162774]  INFO -- : [20e3842e-0cf6-4748-aac6-6b1160df0b57]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 3086)
+I, [2022-10-20T13:54:53.073935 #162774]  INFO -- : [20e3842e-0cf6-4748-aac6-6b1160df0b57] Completed 422 Unprocessable Entity in 8ms (Views: 5.0ms | ActiveRecord: 0.0ms | Allocations: 4063)
+I, [2022-10-20T14:00:02.069038 #162849]  INFO -- : [e5dca301-e541-4a0c-b6ea-6201af262379] Started GET "/posts" for 176.129.104.228 at 2022-10-20 14:00:02 +0000
+I, [2022-10-20T14:00:02.071294 #162849]  INFO -- : [e5dca301-e541-4a0c-b6ea-6201af262379] Processing by PostsController#index as HTML
+I, [2022-10-20T14:00:02.140872 #162849]  INFO -- : [e5dca301-e541-4a0c-b6ea-6201af262379]   Rendered posts/index.html.erb within layouts/application (Duration: 64.9ms | Allocations: 15151)
+I, [2022-10-20T14:00:02.144863 #162849]  INFO -- : [e5dca301-e541-4a0c-b6ea-6201af262379]   Rendered layout layouts/application.html.erb (Duration: 69.0ms | Allocations: 17571)
+I, [2022-10-20T14:00:02.145406 #162849]  INFO -- : [e5dca301-e541-4a0c-b6ea-6201af262379] Completed 200 OK in 74ms (Views: 71.2ms | ActiveRecord: 20.7ms | Allocations: 19143)
+I, [2022-10-20T14:00:02.168852 #162849]  INFO -- : [04eb3e05-2e91-4664-985e-879c0900ad0f] Started GET "/assets/application-4dc1087a3806e10fe750ddbfd1540e3a334530a77de8832e06586dbc4e822691.css" for 176.129.104.228 at 2022-10-20 14:00:02 +0000
+F, [2022-10-20T14:00:02.169634 #162849] FATAL -- : [04eb3e05-2e91-4664-985e-879c0900ad0f]   
+[04eb3e05-2e91-4664-985e-879c0900ad0f] ActionController::RoutingError (No route matches [GET] "/assets/application-4dc1087a3806e10fe750ddbfd1540e3a334530a77de8832e06586dbc4e822691.css"):
+[04eb3e05-2e91-4664-985e-879c0900ad0f]   
+I, [2022-10-20T14:00:02.184175 #162849]  INFO -- : [b13fa223-b9f1-447f-be91-5ba806243321] Started GET "/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js" for 176.129.104.228 at 2022-10-20 14:00:02 +0000
+F, [2022-10-20T14:00:02.184885 #162849] FATAL -- : [b13fa223-b9f1-447f-be91-5ba806243321]   
+[b13fa223-b9f1-447f-be91-5ba806243321] ActionController::RoutingError (No route matches [GET] "/assets/es-module-shims.min-d89e73202ec09dede55fb74115af9c5f9f2bb965433de1c2446e1faa6dac2470.js"):
+[b13fa223-b9f1-447f-be91-5ba806243321]   
+I, [2022-10-20T14:23:04.844098 #163043]  INFO -- : [e01adf89-9c7e-41e6-b65a-5ef5ac8dffd8] Started GET "/posts" for 176.129.104.228 at 2022-10-20 14:23:04 +0000
+I, [2022-10-20T14:23:04.845584 #163043]  INFO -- : [e01adf89-9c7e-41e6-b65a-5ef5ac8dffd8] Processing by PostsController#index as HTML
+I, [2022-10-20T14:23:04.889765 #163043]  INFO -- : [e01adf89-9c7e-41e6-b65a-5ef5ac8dffd8]   Rendered posts/index.html.erb within layouts/application (Duration: 41.3ms | Allocations: 15148)
+I, [2022-10-20T14:23:04.892118 #163043]  INFO -- : [e01adf89-9c7e-41e6-b65a-5ef5ac8dffd8]   Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 17568)
+I, [2022-10-20T14:23:04.892450 #163043]  INFO -- : [e01adf89-9c7e-41e6-b65a-5ef5ac8dffd8] Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 12.9ms | Allocations: 19140)
+I, [2022-10-20T14:23:10.083846 #163043]  INFO -- : [06bdfc4d-d0eb-4f2d-8e0f-49e7b49545cd] Started GET "/posts/new" for 176.129.104.228 at 2022-10-20 14:23:10 +0000
+I, [2022-10-20T14:23:10.085022 #163043]  INFO -- : [06bdfc4d-d0eb-4f2d-8e0f-49e7b49545cd] Processing by PostsController#new as HTML
+I, [2022-10-20T14:23:10.095263 #163043]  INFO -- : [06bdfc4d-d0eb-4f2d-8e0f-49e7b49545cd]   Rendered posts/new.html.erb within layouts/application (Duration: 8.9ms | Allocations: 3354)
+I, [2022-10-20T14:23:10.096417 #163043]  INFO -- : [06bdfc4d-d0eb-4f2d-8e0f-49e7b49545cd]   Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3950)
+I, [2022-10-20T14:23:10.096804 #163043]  INFO -- : [06bdfc4d-d0eb-4f2d-8e0f-49e7b49545cd] Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 4317)
+I, [2022-10-20T14:24:37.596460 #163248]  INFO -- : [41a4ed97-2fb6-4296-9b12-5a5af6a2f0e4] Started HEAD "/" for 127.0.0.1 at 2022-10-20 14:24:37 +0000
+F, [2022-10-20T14:24:37.598293 #163248] FATAL -- : [41a4ed97-2fb6-4296-9b12-5a5af6a2f0e4]   
+[41a4ed97-2fb6-4296-9b12-5a5af6a2f0e4] ActionController::RoutingError (No route matches [HEAD] "/"):
+[41a4ed97-2fb6-4296-9b12-5a5af6a2f0e4]   
+I, [2022-10-20T14:25:25.234059 #163381]  INFO -- : [74c32aba-9653-4cc5-b7eb-d3c4987afc94] Started HEAD "/" for 127.0.0.1 at 2022-10-20 14:25:25 +0000
+I, [2022-10-20T14:25:25.240353 #163381]  INFO -- : [74c32aba-9653-4cc5-b7eb-d3c4987afc94] Processing by PostsController#index as HTML
+I, [2022-10-20T14:25:25.309410 #163381]  INFO -- : [74c32aba-9653-4cc5-b7eb-d3c4987afc94]   Rendered posts/index.html.erb within layouts/application (Duration: 62.6ms | Allocations: 14976)
+I, [2022-10-20T14:25:25.314783 #163381]  INFO -- : [74c32aba-9653-4cc5-b7eb-d3c4987afc94]   Rendered layout layouts/application.html.erb (Duration: 68.1ms | Allocations: 17435)
+I, [2022-10-20T14:25:25.315696 #163381]  INFO -- : [74c32aba-9653-4cc5-b7eb-d3c4987afc94] Completed 200 OK in 75ms (Views: 71.0ms | ActiveRecord: 16.5ms | Allocations: 18991)
+I, [2022-10-20T14:25:35.259190 #163381]  INFO -- : [1a2ef921-3d24-4187-b978-2c3342c59d84] Started GET "/posts/new" for 176.129.104.228 at 2022-10-20 14:25:35 +0000
+I, [2022-10-20T14:25:35.260621 #163381]  INFO -- : [1a2ef921-3d24-4187-b978-2c3342c59d84] Processing by PostsController#new as HTML
+I, [2022-10-20T14:25:35.271748 #163381]  INFO -- : [1a2ef921-3d24-4187-b978-2c3342c59d84]   Rendered posts/new.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3381)
+I, [2022-10-20T14:25:35.273010 #163381]  INFO -- : [1a2ef921-3d24-4187-b978-2c3342c59d84]   Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3976)
+I, [2022-10-20T14:25:35.273691 #163381]  INFO -- : [1a2ef921-3d24-4187-b978-2c3342c59d84] Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.0ms | Allocations: 4334)
+I, [2022-10-20T14:25:39.246912 #163381]  INFO -- : [59e7c58a-6728-45d3-b2ba-e5d8ee89bfc6] Started GET "/posts" for 176.129.104.228 at 2022-10-20 14:25:39 +0000
+I, [2022-10-20T14:25:39.248427 #163381]  INFO -- : [59e7c58a-6728-45d3-b2ba-e5d8ee89bfc6] Processing by PostsController#index as HTML
+I, [2022-10-20T14:25:39.254944 #163381]  INFO -- : [59e7c58a-6728-45d3-b2ba-e5d8ee89bfc6]   Rendered posts/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 1178)
+I, [2022-10-20T14:25:39.256783 #163381]  INFO -- : [59e7c58a-6728-45d3-b2ba-e5d8ee89bfc6]   Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 1728)
+I, [2022-10-20T14:25:39.257388 #163381]  INFO -- : [59e7c58a-6728-45d3-b2ba-e5d8ee89bfc6] Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.8ms | Allocations: 1978)
+I, [2022-10-20T14:25:40.642558 #163381]  INFO -- : [19d85193-1139-4af1-9418-7ae79d533a66] Started GET "/posts/new" for 176.129.104.228 at 2022-10-20 14:25:40 +0000
+I, [2022-10-20T14:25:40.643424 #163381]  INFO -- : [19d85193-1139-4af1-9418-7ae79d533a66] Processing by PostsController#new as HTML
+I, [2022-10-20T14:25:40.648748 #163381]  INFO -- : [19d85193-1139-4af1-9418-7ae79d533a66]   Rendered posts/new.html.erb within layouts/application (Duration: 4.2ms | Allocations: 1612)
+I, [2022-10-20T14:25:40.650014 #163381]  INFO -- : [19d85193-1139-4af1-9418-7ae79d533a66]   Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2161)
+I, [2022-10-20T14:25:40.650569 #163381]  INFO -- : [19d85193-1139-4af1-9418-7ae79d533a66] Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.0ms | Allocations: 2377)
+I, [2022-10-20T14:33:19.455429 #163608]  INFO -- : [85bae0bf-740d-4490-bbef-defb3b6beb71] Started HEAD "/" for 127.0.0.1 at 2022-10-20 14:33:19 +0000
+I, [2022-10-20T14:33:19.459394 #163608]  INFO -- : [85bae0bf-740d-4490-bbef-defb3b6beb71] Processing by PostsController#index as HTML
+I, [2022-10-20T14:33:19.510995 #163608]  INFO -- : [85bae0bf-740d-4490-bbef-defb3b6beb71]   Rendered posts/index.html.erb within layouts/application (Duration: 46.2ms | Allocations: 14977)
+I, [2022-10-20T14:33:19.515068 #163608]  INFO -- : [85bae0bf-740d-4490-bbef-defb3b6beb71]   Rendered layout layouts/application.html.erb (Duration: 50.5ms | Allocations: 17436)
+I, [2022-10-20T14:33:19.515497 #163608]  INFO -- : [85bae0bf-740d-4490-bbef-defb3b6beb71] Completed 200 OK in 56ms (Views: 52.7ms | ActiveRecord: 11.3ms | Allocations: 18992)
+I, [2022-10-20T14:33:19.548195 #163608]  INFO -- : [0421bf3b-f138-4f3c-a6c0-c6d0e3e98e59] Started GET "/posts/new" for 176.129.104.228 at 2022-10-20 14:33:19 +0000
+I, [2022-10-20T14:33:19.549433 #163608]  INFO -- : [0421bf3b-f138-4f3c-a6c0-c6d0e3e98e59] Processing by PostsController#new as HTML
+I, [2022-10-20T14:33:19.561412 #163608]  INFO -- : [0421bf3b-f138-4f3c-a6c0-c6d0e3e98e59]   Rendered posts/new.html.erb within layouts/application (Duration: 10.6ms | Allocations: 3375)
+I, [2022-10-20T14:33:19.562640 #163608]  INFO -- : [0421bf3b-f138-4f3c-a6c0-c6d0e3e98e59]   Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 3970)
+I, [2022-10-20T14:33:19.563035 #163608]  INFO -- : [0421bf3b-f138-4f3c-a6c0-c6d0e3e98e59] Completed 200 OK in 13ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 4328)
+I, [2022-10-20T14:33:30.034123 #163608]  INFO -- : [aefbe84b-fe9f-4e31-88f4-5bf44536bf89] Started GET "/posts" for 176.129.104.228 at 2022-10-20 14:33:30 +0000
+I, [2022-10-20T14:33:30.035049 #163608]  INFO -- : [aefbe84b-fe9f-4e31-88f4-5bf44536bf89] Processing by PostsController#index as HTML
+I, [2022-10-20T14:33:30.040904 #163608]  INFO -- : [aefbe84b-fe9f-4e31-88f4-5bf44536bf89]   Rendered posts/index.html.erb within layouts/application (Duration: 5.0ms | Allocations: 1163)
+I, [2022-10-20T14:33:30.042158 #163608]  INFO -- : [aefbe84b-fe9f-4e31-88f4-5bf44536bf89]   Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 1713)
+I, [2022-10-20T14:33:30.042441 #163608]  INFO -- : [aefbe84b-fe9f-4e31-88f4-5bf44536bf89] Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.7ms | Allocations: 1965)
+I, [2022-10-20T14:33:32.682984 #163608]  INFO -- : [562f3dba-e9db-4219-a8bb-78806fd90f7b] Started GET "/posts/new" for 176.129.104.228 at 2022-10-20 14:33:32 +0000
+I, [2022-10-20T14:33:32.683895 #163608]  INFO -- : [562f3dba-e9db-4219-a8bb-78806fd90f7b] Processing by PostsController#new as HTML
+I, [2022-10-20T14:33:32.688703 #163608]  INFO -- : [562f3dba-e9db-4219-a8bb-78806fd90f7b]   Rendered posts/new.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1606)
+I, [2022-10-20T14:33:32.689694 #163608]  INFO -- : [562f3dba-e9db-4219-a8bb-78806fd90f7b]   Rendered layout layouts/application.html.erb (Duration: 5.2ms | Allocations: 2155)
+I, [2022-10-20T14:33:32.689958 #163608]  INFO -- : [562f3dba-e9db-4219-a8bb-78806fd90f7b] Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2373)
+I, [2022-10-20T14:37:11.052054 #163608]  INFO -- : [f4ec853c-e6c6-43ff-a391-400be2268e64] Started POST "/posts" for 176.129.104.228 at 2022-10-20 14:37:11 +0000
+I, [2022-10-20T14:37:11.053454 #163608]  INFO -- : [f4ec853c-e6c6-43ff-a391-400be2268e64] Processing by PostsController#create as TURBO_STREAM
+I, [2022-10-20T14:37:11.053563 #163608]  INFO -- : [f4ec853c-e6c6-43ff-a391-400be2268e64]   Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"title"=>"I'll try rails", "content"=>"<h1>That's my first time at Rails.</h1><div><br>Hoping to continue as expected, <em>a journey with not</em> too many stops.<br><br>It's been touch to just install my first web application with rails with the rails tutorial on&nbsp;<a href=\"https://rubyonrails.org\">https://rubyonrails.org</a><br><br>I want to learn Unit Tests, during my journey.</div>"}, "commit"=>"Create Post"}
+I, [2022-10-20T14:37:11.080873 #163608]  INFO -- : [f4ec853c-e6c6-43ff-a391-400be2268e64] Redirected to http://cosmoswide.fr:3000/posts/2
+I, [2022-10-20T14:37:11.081059 #163608]  INFO -- : [f4ec853c-e6c6-43ff-a391-400be2268e64] Completed 302 Found in 27ms (ActiveRecord: 4.8ms | Allocations: 5831)
+I, [2022-10-20T14:37:11.102265 #163608]  INFO -- : [53270016-94fd-4e1b-a43a-398e0e9d7f9c] Started GET "/posts/2" for 176.129.104.228 at 2022-10-20 14:37:11 +0000
+I, [2022-10-20T14:37:11.103150 #163608]  INFO -- : [53270016-94fd-4e1b-a43a-398e0e9d7f9c] Processing by PostsController#show as TURBO_STREAM
+I, [2022-10-20T14:37:11.103254 #163608]  INFO -- : [53270016-94fd-4e1b-a43a-398e0e9d7f9c]   Parameters: {"id"=>"2"}
+I, [2022-10-20T14:37:11.111266 #163608]  INFO -- : [53270016-94fd-4e1b-a43a-398e0e9d7f9c]   Rendered posts/show.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2308)
+I, [2022-10-20T14:37:11.112188 #163608]  INFO -- : [53270016-94fd-4e1b-a43a-398e0e9d7f9c]   Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2872)
+I, [2022-10-20T14:37:11.112419 #163608]  INFO -- : [53270016-94fd-4e1b-a43a-398e0e9d7f9c] Completed 200 OK in 9ms (Views: 6.6ms | ActiveRecord: 0.5ms | Allocations: 3568)
+I, [2022-10-20T14:37:19.242641 #163608]  INFO -- : [0d9c5250-eee5-4950-94d0-a1fe21a6c7d5] Started GET "/posts" for 176.129.104.228 at 2022-10-20 14:37:19 +0000
+I, [2022-10-20T14:37:19.243420 #163608]  INFO -- : [0d9c5250-eee5-4950-94d0-a1fe21a6c7d5] Processing by PostsController#index as HTML
+I, [2022-10-20T14:37:19.250922 #163608]  INFO -- : [0d9c5250-eee5-4950-94d0-a1fe21a6c7d5]   Rendered posts/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 2334)
+I, [2022-10-20T14:37:19.251800 #163608]  INFO -- : [0d9c5250-eee5-4950-94d0-a1fe21a6c7d5]   Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2883)
+I, [2022-10-20T14:37:19.252039 #163608]  INFO -- : [0d9c5250-eee5-4950-94d0-a1fe21a6c7d5] Completed 200 OK in 9ms (Views: 7.3ms | ActiveRecord: 0.8ms | Allocations: 3094)
+I, [2022-10-20T14:37:21.333255 #163608]  INFO -- : [21ee15b3-730c-45b2-b45f-696e32637b25] Started GET "/posts/1" for 176.129.104.228 at 2022-10-20 14:37:21 +0000
+I, [2022-10-20T14:37:21.333974 #163608]  INFO -- : [21ee15b3-730c-45b2-b45f-696e32637b25] Processing by PostsController#show as HTML
+I, [2022-10-20T14:37:21.334019 #163608]  INFO -- : [21ee15b3-730c-45b2-b45f-696e32637b25]   Parameters: {"id"=>"1"}
+I, [2022-10-20T14:37:21.339549 #163608]  INFO -- : [21ee15b3-730c-45b2-b45f-696e32637b25]   Rendered posts/show.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1070)
+I, [2022-10-20T14:37:21.340291 #163608]  INFO -- : [21ee15b3-730c-45b2-b45f-696e32637b25]   Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1611)
+I, [2022-10-20T14:37:21.340490 #163608]  INFO -- : [21ee15b3-730c-45b2-b45f-696e32637b25] Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.8ms | Allocations: 1900)
+I, [2022-10-20T14:37:22.230070 #163608]  INFO -- : [28db453a-4f1e-49ad-83ce-e80bed9b4605] Started DELETE "/posts/1" for 176.129.104.228 at 2022-10-20 14:37:22 +0000
+I, [2022-10-20T14:37:22.230803 #163608]  INFO -- : [28db453a-4f1e-49ad-83ce-e80bed9b4605] Processing by PostsController#destroy as TURBO_STREAM
+I, [2022-10-20T14:37:22.230857 #163608]  INFO -- : [28db453a-4f1e-49ad-83ce-e80bed9b4605]   Parameters: {"authenticity_token"=>"[FILTERED]", "id"=>"1"}
+I, [2022-10-20T14:37:22.238148 #163608]  INFO -- : [28db453a-4f1e-49ad-83ce-e80bed9b4605] Redirected to http://cosmoswide.fr:3000/posts
+I, [2022-10-20T14:37:22.238325 #163608]  INFO -- : [28db453a-4f1e-49ad-83ce-e80bed9b4605] Completed 302 Found in 7ms (ActiveRecord: 2.0ms | Allocations: 1647)
+I, [2022-10-20T14:37:22.257797 #163608]  INFO -- : [91bab1fe-9677-46a7-b482-e7e2b8f0a27c] Started GET "/posts" for 176.129.104.228 at 2022-10-20 14:37:22 +0000
+I, [2022-10-20T14:37:22.258636 #163608]  INFO -- : [91bab1fe-9677-46a7-b482-e7e2b8f0a27c] Processing by PostsController#index as TURBO_STREAM
+I, [2022-10-20T14:37:22.265371 #163608]  INFO -- : [91bab1fe-9677-46a7-b482-e7e2b8f0a27c]   Rendered posts/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1705)
+I, [2022-10-20T14:37:22.266467 #163608]  INFO -- : [91bab1fe-9677-46a7-b482-e7e2b8f0a27c]   Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 2254)
+I, [2022-10-20T14:37:22.266760 #163608]  INFO -- : [91bab1fe-9677-46a7-b482-e7e2b8f0a27c] Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.6ms | Allocations: 2467)
+I, [2022-10-20T14:37:48.613207 #163608]  INFO -- : [c2b74f6b-659b-4a98-b3eb-c8b709dbf201] Started GET "/posts/2" for 176.129.104.228 at 2022-10-20 14:37:48 +0000
+I, [2022-10-20T14:37:48.614931 #163608]  INFO -- : [c2b74f6b-659b-4a98-b3eb-c8b709dbf201] Processing by PostsController#show as HTML
+I, [2022-10-20T14:37:48.614995 #163608]  INFO -- : [c2b74f6b-659b-4a98-b3eb-c8b709dbf201]   Parameters: {"id"=>"2"}
+I, [2022-10-20T14:37:48.621166 #163608]  INFO -- : [c2b74f6b-659b-4a98-b3eb-c8b709dbf201]   Rendered posts/show.html.erb within layouts/application (Duration: 4.6ms | Allocations: 1812)
+I, [2022-10-20T14:37:48.621861 #163608]  INFO -- : [c2b74f6b-659b-4a98-b3eb-c8b709dbf201]   Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2353)
+I, [2022-10-20T14:37:48.622074 #163608]  INFO -- : [c2b74f6b-659b-4a98-b3eb-c8b709dbf201] Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.5ms | Allocations: 2642)
+I, [2022-10-20T14:37:49.520837 #163608]  INFO -- : [8c81401a-9f7e-40e5-8c30-04887eac08ec] Started GET "/posts/2/edit" for 176.129.104.228 at 2022-10-20 14:37:49 +0000
+I, [2022-10-20T14:37:49.521522 #163608]  INFO -- : [8c81401a-9f7e-40e5-8c30-04887eac08ec] Processing by PostsController#edit as HTML
+I, [2022-10-20T14:37:49.521579 #163608]  INFO -- : [8c81401a-9f7e-40e5-8c30-04887eac08ec]   Parameters: {"id"=>"2"}
+I, [2022-10-20T14:37:49.528723 #163608]  INFO -- : [8c81401a-9f7e-40e5-8c30-04887eac08ec]   Rendered posts/edit.html.erb within layouts/application (Duration: 5.6ms | Allocations: 2268)
+I, [2022-10-20T14:37:49.529682 #163608]  INFO -- : [8c81401a-9f7e-40e5-8c30-04887eac08ec]   Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2809)
+I, [2022-10-20T14:37:49.529942 #163608]  INFO -- : [8c81401a-9f7e-40e5-8c30-04887eac08ec] Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.5ms | Allocations: 3152)
+I, [2022-10-20T14:38:00.421920 #163608]  INFO -- : [0d6e809c-4004-40ca-bd0c-ef2de287ac6f] Started PATCH "/posts/2" for 176.129.104.228 at 2022-10-20 14:38:00 +0000
+I, [2022-10-20T14:38:00.422673 #163608]  INFO -- : [0d6e809c-4004-40ca-bd0c-ef2de287ac6f] Processing by PostsController#update as TURBO_STREAM
+I, [2022-10-20T14:38:00.422739 #163608]  INFO -- : [0d6e809c-4004-40ca-bd0c-ef2de287ac6f]   Parameters: {"authenticity_token"=>"[FILTERED]", "post"=>{"title"=>"I'll try rails", "content"=>"<h1>That's my first time at Rails.</h1><div><br>Hoping to continue as expected, <em>a journey with not</em> too many stops.<br><br>It's been tough to just install my first web application with rails with the rails tutorial on <a href=\"https://rubyonrails.org\">https://rubyonrails.org</a><br><br>I want to learn Unit Tests, during my journey.</div>"}, "commit"=>"Update Post", "id"=>"2"}
+I, [2022-10-20T14:38:00.467234 #163608]  INFO -- : [0d6e809c-4004-40ca-bd0c-ef2de287ac6f] Redirected to http://cosmoswide.fr:3000/posts/2
+I, [2022-10-20T14:38:00.467437 #163608]  INFO -- : [0d6e809c-4004-40ca-bd0c-ef2de287ac6f] Completed 302 Found in 45ms (ActiveRecord: 2.4ms | Allocations: 12918)
+I, [2022-10-20T14:38:00.487035 #163608]  INFO -- : [283248a0-3ed0-40f4-a09d-7653226036bc] Started GET "/posts/2" for 176.129.104.228 at 2022-10-20 14:38:00 +0000
+I, [2022-10-20T14:38:00.487922 #163608]  INFO -- : [283248a0-3ed0-40f4-a09d-7653226036bc] Processing by PostsController#show as TURBO_STREAM
+I, [2022-10-20T14:38:00.487979 #163608]  INFO -- : [283248a0-3ed0-40f4-a09d-7653226036bc]   Parameters: {"id"=>"2"}
+I, [2022-10-20T14:38:00.493552 #163608]  INFO -- : [283248a0-3ed0-40f4-a09d-7653226036bc]   Rendered posts/show.html.erb within layouts/application (Duration: 4.3ms | Allocations: 1798)
+I, [2022-10-20T14:38:00.494227 #163608]  INFO -- : [283248a0-3ed0-40f4-a09d-7653226036bc]   Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2339)
+I, [2022-10-20T14:38:00.494456 #163608]  INFO -- : [283248a0-3ed0-40f4-a09d-7653226036bc] Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.4ms | Allocations: 2631)
+I, [2022-10-20T14:47:38.590087 #163608]  INFO -- : [237e28ac-1105-4149-8f8d-c7930c17cae2] Started GET "/posts" for 176.129.104.228 at 2022-10-20 14:47:38 +0000
+I, [2022-10-20T14:47:38.590839 #163608]  INFO -- : [237e28ac-1105-4149-8f8d-c7930c17cae2] Processing by PostsController#index as HTML
+I, [2022-10-20T14:47:38.606085 #163608]  INFO -- : [237e28ac-1105-4149-8f8d-c7930c17cae2]   Rendered posts/index.html.erb within layouts/application (Duration: 14.8ms | Allocations: 4560)
+I, [2022-10-20T14:47:38.606810 #163608]  INFO -- : [237e28ac-1105-4149-8f8d-c7930c17cae2]   Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 5109)
+I, [2022-10-20T14:47:38.607047 #163608]  INFO -- : [237e28ac-1105-4149-8f8d-c7930c17cae2] Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 5.2ms | Allocations: 5317)
